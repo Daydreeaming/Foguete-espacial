@@ -1,0 +1,42 @@
+body {
+    background-image: url("./Estacao_cubos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.texto {
+font-size: 32px;
+
+}
+img {
+    margin: auto;
+    width: 600px;
+    height: 1000px;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 32px;
+}
+
+button{
+    padding: 4px 32px;
+    border-radius: 8px;
+    background-color: yellow;
+    font-size: 4px;
+}
